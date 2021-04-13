@@ -1,4 +1,2 @@
 django==3.2
 psycopg2==2.8.6
-djangorestframework-simplejwt==4.4.0
-PyJWT==v1.7.1

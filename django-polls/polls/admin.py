@@ -9,7 +9,7 @@ class ChoiceInLine(admin.TabularInline):
 
 class QuestionAdmin(admin.ModelAdmin):
     # To reoder fields on the edit form
-    fields = ['question_text', 'pub_date']
+    # fields = ['question_text', 'pub_date']
     fieldsets = [
         (None,                  {'fields': ['question_text']}),
         ('Date information',    {'fields' : ['pub_date'], 'classes': ['collapse']}),
